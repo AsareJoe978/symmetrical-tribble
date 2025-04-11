@@ -1,0 +1,292 @@
+/* 
+----------FOTER-----------
+Font-weight:700,400,
+Font-size;50px,40px,30px,16px
+line-height;1.5,1.2,2
+letter-spacig;-2
+font-family;poppins,sans-serif
+text-align;center,left
+text-decoration;none
+list-style;none
+
+------------COLORS--------------
+
+
+
+/* ------------NAVBAR------------------ */
+.navbar{
+    margin-bottom: 200px;
+}
+.nav-b{
+  text-align: right;
+}
+
+.logo-md{
+  width: 100px;
+  text-align: left;
+}
+/* ------------CHECKBOX BAR-------------- */
+.checkbox-bar{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*--------------GLOBAL STYLES----------------- */ 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3{
+    letter-spacing: -2px;
+    font-family: 'poppins', sans-serif;
+    color: black;
+    text-align: center;
+    margin: 20px 30px ;
+}
+.hero-header{
+    margin-bottom: 10px;
+}
+div{
+  text-align: center;
+}
+
+body{
+    background-color: ivory;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container {
+    max-width: 1200px ;
+     margin: 0 auto;
+
+}
+
+ h1{ 
+    font-weight: 700;
+    line-height: 1.5;
+    font-size:50px ;
+}
+h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+}
+h3{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+}
+.hero-paragraph{
+    margin-bottom: 100px;
+}
+p,a{
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:2 ;
+    margin: 20px 20px;
+}
+p{
+    color: rgba(0, 0, 0, 0.664);
+    text-align: center; 
+    margin: 20px 20px;
+
+}
+a{
+    text-decoration: none;
+    margin: 10px 10px ;
+
+}
+ul{
+    list-style:none ;
+    margin-left: 20px;
+    
+}
+
+
+
+img{
+    background-color: aquamarine;
+}
+span{
+    display: inline-block;
+}
+    
+
+
+#green-text{
+    color: black;
+}
+.pop-text{
+    color:rgba(0, 0, 0, 0.692);
+    font-size:30px ;
+    text-decoration: underline;
+    font-family: 'poppins', sans-serif;
+
+}
+/* --------------------COMPONENT------------------ */
+
+.btn {
+    font-size: 16px; 
+    padding: 20px 30px;
+    border:2px solid  white ;
+    border-radius: 25px;
+    height: 50px;
+    margin: 20px 20px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.btn-primary:link, .btn-primary:visited{
+    color: white;
+    background-color: blue;
+    padding: 20px 30px;
+    border: 2px solid  blue;
+    text-align: center;
+    
+}
+
+
+.btn-primary:active, .btn-primary:hover{
+    color:white;
+    background-color: blue;
+    padding: 20px 30px;
+     border: 2px solid  blue;
+     
+
+}
+.btn-secondary:link, .btn-secondary:visited{
+    color: white;
+     background-color:violet;
+     padding: 20px 30px;
+      border: 2px solid  violet;
+      
+}
+
+
+.btn-secondary:active, .btn-secondary:hover{
+    color:white;
+   background-color:violet;
+   padding: 20px 30px;
+    border: 2px solid  violet;
+    
+}
+.btn-tertairy:link, .btn-tertairy:visited{
+    color:blue;
+    background-color:white;
+    padding: 20px 30px;
+     border: 2px solid blue;
+     
+}
+.btn-tertairy:active, .btn-tertairy:hover{
+    color:blue;
+    background-color:white;
+    padding: 20px 30px;
+     border: 2px solid  blue;
+     
+}
+
+/* -------------------SECTIONS---------------- */
+main section{
+    text-align: center;
+}
+/* --------------HEADER SECTION------------------------- */
+header section{
+    text-align: center;
+}
+header img{
+    width: 100px;
+}
+/* -----------------CTA SECTION----------------------- */
+  CTA section{
+    text-align: center;
+    line-height:1.2 ;
+  }
+  .highlight{
+    color: white;
+    padding: 5px 10px;
+  }
+  .highlight-primary{
+    background-color: orange;
+     border-radius: 8px;
+
+  }
+  .highlight-secondary{
+    background-color: purple;
+     border-radius: 8px;
+
+  }
+  .highlight-tertiary{
+    background-color: aqua;
+     border-radius: 8px;
+  }
+  /* --------------FOTER SECTION------------- */
+  .footer-section{
+    display: inline-block;
+    text-align: center;
+  }
+  .cta-card{
+    text-align: center;
+    background-color: blue;
+     max-width: 1000px;
+    padding: 70px 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    
+    
+  }
+  .asa{
+    padding: 15px 30px;
+    border: 5px solid white;
+    border-radius: 8px;
+    color: white;
+    width: 150px;
+    height: 150px;
+
+  }
+  .asa-b{
+    background-color: orange;
+    
+  }
+  .asa-a{
+    background-color: aqua;
+  }
+  .asa-c{
+    background-color: blueviolet;
+  }
+  .asa-d{
+    background-color: bisque;
+  }
+  .asa-e{
+    background-color: yellowgreen;
+  }
+  .asa-g{
+    background-color: indianred;
+  }
+    .asa-f{
+      background-color: blanchedalmond;
+    }
+ 
+  .logo-sm{
+    text-align: left;
+    width: 200px;
+    margin-top: 30px;
+  }
+  .footer-icons{
+    background-color: white;
+    text-align: center;
+    width: 30px;
+
+    
+    
+    
+    
+  }
